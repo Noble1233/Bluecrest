@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bluecrest School — Welcome</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Bluecrest School Logo">
+      <h1>Bluecrest School</h1>
+    </div>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Enquire</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h2>Welcome to Bluecrest School</h2>
+      <p>Empowering students with knowledge, skills, and values for the future.</p>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>Bluecrest School is committed to providing quality education and nurturing students into responsible leaders and innovators.</p>
+    <img src="school.jpeg" alt="Our School">
+  </section>
+
+  <section class="programs" id="programs">
+    <h2>Our Programs</h2>
+    <div class="program-list">
+      <div class="program">
+        <img src="school 1.jpg" alt="Primary Education">
+        <h3>Primary Education</h3>
+        <p>Building a strong foundation through creativity and curiosity.</p>
+      </div>
+      <div class="program">
+        <img src="students.jpeg" alt="Secondary Education">
+        <h3>Secondary Education</h3>
+        <p>Developing critical thinkers and future professionals.</p>
+      </div>
+      <div class="program">
+        <img src="lab.jpeg" alt="STEM Programs">
+        <h3>STEM Programs</h3>
+        <p>Hands-on learning in science, technology, and innovation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-content">
+      <video controls>
+        <source src="school-video.mp4" type="video/mp4">
+        Your browser does not support video.
+      </video>
+      <img src="students2.jpeg" alt="Students Learning">
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>© 2025 Bluecrest School | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
